@@ -1,0 +1,34 @@
+.poster{ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    .info-panel {
+        flex: 0 1 200px;
+        text-align: center;
+        padding: 10px;
+
+        .d-emoji { 
+            max-width: 200px; 
+            margin-bottom: 5px;
+        }
+        
+        h3{
+            margin: 10px 0;
+            font-size: 1.5em;
+            font-weight: normal;
+        }
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .poster {
+        .info-panel { 
+            flex: 1 1;
+
+            .d-emoji { max-width: 800px; }
+        }
+    }
+}
+

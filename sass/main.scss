@@ -1,0 +1,24 @@
+@import '_vars';
+@import 'modules/_navbar';
+@import 'modules/_info';
+@import 'modules/_lightbox';
+
+body {
+    font-family: 'Mali', Arial, Helvetica, sans-serif;
+    background-color: $bg-color;
+    color: $main-text;
+}
+
+.heading {
+    color: $main-text;
+    font-family: 'Mali', Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+    font-size: 3em;
+}
+
+.content { min-height: 80vh; }
+
+
+@import 'modules/_footer'

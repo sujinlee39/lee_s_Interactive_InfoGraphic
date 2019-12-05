@@ -1,0 +1,28 @@
+<section id="section1" class="panel">
+
+    <div class="poster">
+        <!-- loop through all our team members and put their info on the page -->
+        {{#each info}}<!-- this is like a JS forEach loop -->
+        <div class="info-panel">
+            <a href="{{ID}}" class="d-link">
+                <img src="images/{{Image}}" alt="emoji image" class="d-emoji">
+            </a>
+            <h3>Name: {{name}}</h3>
+        </div>
+        {{/each}}
+    </div>   
+    </div>
+
+    <!-- this will be filled in on the client side when we render our AJAX data -->
+    <section class="lightbox">
+        <span class="close">x</span>
+        <div class="sidebar">
+            <img src="" alt="larger emoji image">
+        </div>
+
+        <div class="lb-content">
+    <!-- render the database content here -->
+
+        </div>
+    </section>
+</section>
