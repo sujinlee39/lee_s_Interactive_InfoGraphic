@@ -1,12 +1,12 @@
-#### Infographic
+# Infographic
 
 One responsive web page for infographic
 
-### Emoji Diet Nutritional Data
+## Emoji Diet Nutritional Data
 
 Use about ten fruit emojis to show nutrition data on the client-side page.
 
-## Emojis
+### Emojis
 
 1. grapes
 2. melon
@@ -19,7 +19,7 @@ Use about ten fruit emojis to show nutrition data on the client-side page.
 9. green apple
 10. pear
 
-# Nutrition Informations
+#### Nutrition Informations
 
 - Calories (kcal)
 - Carbohydrates (g)
